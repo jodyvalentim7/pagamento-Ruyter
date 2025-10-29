@@ -165,7 +165,7 @@ form.addEventListener('submit', function(e){
         // auto-generate reference if step3 exists
         if(step3){
           const entidade = '10116';
-          const referencia = '92 91 998 24';
+          const referencia = '929199824';
           if(entidadeEl) entidadeEl.value = entidade;
           if(referenciaEl) referenciaEl.value = referencia;
           if(valorEl) valorEl.value = payload.valor;
@@ -188,7 +188,7 @@ if(backToStep1) backToStep1.addEventListener('click', ()=> goToStep(1));
 if(generateRef) generateRef.addEventListener('click', function(){
   if(!payload){ alert('Preencha seus dados primeiro.'); goToStep(1); return; }
   const entidade = '10116';
-  const referencia = '92 91 998 24';
+  const referencia = '929199824';
   if(entidadeEl) entidadeEl.value = entidade;
   if(referenciaEl) referenciaEl.value = referencia;
   if(valorEl) valorEl.value = payload.valor;
